@@ -4,10 +4,12 @@ const express = require('express');
 const connectdb = require('./db/db');
 const cors = require('cors');
 connectdb();
+const cookie=require('cookie-parser');
+
 
 const app = express();
 
-
+app.use(cookie());
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
