@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.7.9",
+=======
+>>>>>>> 15cfd4fc13b5fc178d9664780e840c8287c4a96f
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
@@ -18,9 +21,13 @@
     "express": "^4.21.2",
     "express-validator": "^7.2.1",
     "jsonwebtoken": "^9.0.2",
+<<<<<<< HEAD
     "mongoose": "^8.9.5",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1"
+=======
+    "mongoose": "^8.9.5"
+>>>>>>> 15cfd4fc13b5fc178d9664780e840c8287c4a96f
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
